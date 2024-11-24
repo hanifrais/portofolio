@@ -32,8 +32,10 @@ h2 {
 }
 
 p {
-    text-align: justify;
+    text-align: center; /* Menjadikan teks di tengah */
+    margin: 0 auto; /* Menjaga margin rata */
 }
+
 
 .project-grid {
     display: grid;
