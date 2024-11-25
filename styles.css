@@ -67,9 +67,10 @@ header {
 .project-header {
     font-size: 2rem;
     margin: 40px 60px; /* Tambahkan margin atas lebih besar */
-    padding-top: 800px; /* Tambahkan padding di bagian atas */
+    padding-top: 40px; /* Tambahkan padding di bagian atas */
     text-align: left; /* Tetap sejajar kiri */
     font-weight: bold;
+    text-align: center;
     color: #333;
 
 }
@@ -81,7 +82,7 @@ header {
 }
 
 .main-image {
-    max-width: 25%; /* Responsif */
+    max-width: 35%; /* Responsif */
     border-radius: 8px;
 }
 
