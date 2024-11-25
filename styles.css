@@ -81,7 +81,7 @@ header {
 }
 
 .main-image {
-    max-width: 40%; /* Responsif */
+    max-width: 25%; /* Responsif */
     border-radius: 8px;
 }
 
