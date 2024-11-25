@@ -55,19 +55,19 @@ header {
     color: white;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    border-radius: 8px;
+    border-radius: 30px;
     font-size: 0.9rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .back-button:hover {
-    background-color: #005bb5;
+    background-color: #ff5500;
 }
 
 /* Project Header */
 .project-header {
     text-align: center;
-    padding: 5px 0;
+    padding: 3px 0;
     background-color: #f9f9f9;
     color: #4682B4;
 
@@ -76,12 +76,12 @@ header {
 /* Image Section */
 .image-section {
     text-align: center;
-    margin: 2rem auto;
+    margin: 1rem auto;
 }
 
 .main-image {
     max-width: 40%; /* Responsif */
-    border-radius: 8px;
+    border-radius: 2px;
 }
 
 .image-caption {
