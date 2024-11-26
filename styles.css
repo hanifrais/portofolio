@@ -168,17 +168,13 @@ p {
 
 /*Table of Contents*/
 .table-of-contents {
-  display: flex;
-  flex-direction: column;
+  
   align-items: center;
   justify-content: center;
   text-align: center;
   margin: 20px auto; /* Mengatur margin otomatis agar elemen berada di tengah */
   padding: 20px;
-  max-width: 600px; /* Opsional: Membatasi lebar */
-  background-color: #f9f9f9; /* Opsional: Memberikan latar belakang */
-  border: 1px solid #ddd; /* Opsional: Menambahkan border */
-  border-radius: 10px; /* Opsional: Membuat sudut melengkung */
+
 }
 
 .table-of-contents ul {
