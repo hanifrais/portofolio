@@ -46,20 +46,43 @@
     <section id="executive-summary">
       <h2>1. Executive Summary</h2>
       <p>MaPa Pizza’s sales trends reveal critical insights into consumer preferences and operational efficiency. Over 4,862 orders were analyzed to evaluate sales performance, identify peak times, and determine product popularity.</p>
-      <p>Peak hours are <strong>12:00 PM - 1:00 PM</strong>strong>and <strong>4:00 PM - 7:00 PM</strong>strong>, contributing 22K orders annually. Week 48 of December saw the highest weekly orders (491), reflecting holiday season demand.</p>
-      <p>Top performers include the <strong>Classic Deluxe Pizza</strong>strong> for total orders (2.33K) and the <strong>Thai Chicken Pizza</strong>strong> for revenue ($43.43K). The <strong>Brie Carre Pizza</strong>strong> consistently underperformed across all metrics.</p>
+      <p>Peak hours are <strong>12:00 PM - 1:00 PM</strong>and <strong>4:00 PM - 7:00 PM</strong>strong>, contributing 22K orders annually. Week 48 of December saw the highest weekly orders (491), reflecting holiday season demand.</p>
+      <p>Top performers include the <strong>Classic Deluxe Pizza</strong> for total orders (2.33K) and the <strong>Thai Chicken Pizza</strong>strong> for revenue ($43.43K). The <strong>Brie Carre Pizza</strong>strong> consistently underperformed across all metrics.</p>
     </section>
 
     <!-- Data Description -->
     <section id="data-description">
+
       <h2>2. Data Description</h2>
-      <p>The dataset consists of 4,862 rows and 12 columns, detailing transactions and product information:</p>
-      <ul>
-        <li><strong>Product Details:</strong> Columns like `pizza_name`, `pizza_category`, and `pizza_size` provided clarity on preferences.</li>
-        <li><strong>Transaction Metrics:</strong> Columns like `total_price`, `quantity`, and `unit_price` measured financial performance.</li>
-        <li><strong>Order Time Data:</strong> Columns like `order_date` and `order_time` helped identify time trends.</li>
-      </ul>
-      <p>SQL was used to calculate metrics such as total revenue, average order value, and pizza popularity by category. For detailed SQL scripts, visit the <a href="https://github.com" target="_blank">GitHub repository</a>.</p>
+
+   <p><strong>2.1 Dataset Overview </strong></p>
+  <p>
+    To uncover actionable insights, a dataset with <strong>4,862 rows</strong> and <strong>12 columns</strong> was thoroughly analyzed. Key columns include:
+  </p>
+  <ul>
+    <li><strong>Product Details:</strong> <code>pizza_name</code>, <code>pizza_category</code>, and <code>pizza_size</code> provided clarity on consumer preferences.</li>
+    <li><strong>Transaction Metrics:</strong> <code>total_price</code>, <code>quantity</code>, and <code>unit_price</code> measured financial performance.</li>
+    <li><strong>Order Time Data:</strong> <code>order_date</code> and <code>order_time</code> allowed the identification of temporal sales patterns.</li>
+  </ul>
+
+ <p><strong>2.2 Calculations and Metrics Used</strong></p>
+  <p>
+    Using SQL, the following calculations were performed to distill raw data into actionable metrics:
+  </p>
+  <ul>
+    <li><strong>Financial Metrics:</strong> Total revenue, average order value, and average pizzas per order.</li>
+    <li><strong>Temporal Trends:</strong> Hourly and weekly sales performance.</li>
+    <li><strong>Category Insights:</strong> Percentage of sales by pizza size and category.</li>
+    <li><strong>Product Rankings:</strong> Top and bottom 5 pizzas by revenue, orders, and total sales.</li>
+  </ul>
+  <p>
+    For full SQL scripts, visit the <a href="https://github.com/your-repo" target="_blank">GitHub Repository</a>.
+  </p>
+  <p>
+    The prepared data was then visualized in Tableau, providing interactive insights. 
+    <a href="https://public.tableau.com/profile/your-dashboard" target="_blank">Explore the dashboard here</a>.
+  </p>
+      
     </section>
 
     <!-- Objective -->
@@ -72,22 +95,14 @@
     <section id="key-results">
       <h2>4. Key Results</h2>
       <h3>Busiest Hours and Weeks</h3>
-      <p>Lunch (12:00 PM - 1:00 PM) and dinner hours (4:00 PM - 7:00 PM) were peak times, with over 22K combined orders annually. Week 48 of December saw a spike in orders, likely due to holiday season demand.</p>
-      <h3>Sales Performance</h3>
-      <ul>
-      <li><strong>Category:</strong> The Classic category dominated sales, contributing 26.91% of orders (~220K pizzas).</li>
-     <li><strong>Size:</strong> Large pizzas accounted for 45.9% of total revenue, indicating customer preference for larger portions.</li>
-      </ul>
-      <h3>Top Performers</h3>
-      <ul>
-        <li><strong>Revenue:</strong> Thai Chicken Pizza ($43.43K)</li>
-        <li><strong>Orders:</strong> Classic Deluxe Pizza (2.33K)</li>
-      </ul>
-      <h3>Low Performers</h3>
-      <ul>
-        <li><strong>Revenue:</strong> Brie Carre Pizza ($11.59K)</li>
-        <li><strong>Orders:</strong> Brie Carre Pizza (480)</li>
-      </ul>
+      <p>Lunchtime (12:00 PM - 1:00 PM) accounted for over 13K orders, reflecting strong midday demand. Similarly, the evening hours of 4:00 PM - 7:00 PM saw another significant surge, with over 9K orders, likely due to family dinner preferences.
+<strong>Week 48</strong>, coinciding with the December holiday season, saw the highest order count (491), signaling seasonal purchasing trends that warrant focused marketing campaigns during this period.</p>
+      <h3>Sales Performance by Category and Size</h3>
+      <p><strong>Classic pizzas stole the show</strong>, contributing <strong>26.91%</strong>strong> of total sales (~220K pizzas). This category’s widespread appeal suggests it’s a safe bet for sustained promotion. When it comes to size, <strong>Large pizzas</strong>strong> contributed <strong>45.9%</strong>strong> of total revenue, signaling that upselling larger portions could maximize profits. <p>
+      <h3>Best and Worst Sellers</h3>
+      <p> At the top of the charts, the <strong>Thai Chicken Pizza</strong>strong> led revenue generation, contributing <strong>$43.43K</strong>strong>, while the <strong>Classic Deluxe Pizza</strong>strong> dominated in total orders (2.33K).
+On the other end, the <strong>Brie Carre Pizza struggled</strong>strong> across all metrics, with revenue barely reaching <strong>$11.59K</strong>strong> and only <strong>480</strong>strong> orders, suggesting potential misalignment with consumer preferences.</p>
+  
     </section>
 
     <!-- Recommendations -->
