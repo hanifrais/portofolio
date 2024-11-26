@@ -177,21 +177,6 @@ p {
 
 }
 
-.table-of-contents ul {
-  list-style-type: none; /* Menghilangkan bullet points */
-  padding: 0;
-}
-
-.table-of-contents li {
-  margin: 10px 0; /* Menambahkan jarak antar item */
-}
-
-.table-of-contents a {
-  text-decoration: none; /* Menghilangkan garis bawah */
-  color: #007BFF; /* Warna link */
-  font-weight: bold;
-}
-
 .table-of-contents a:hover {
   color: #0056b3; /* Warna link saat hover */
 }
