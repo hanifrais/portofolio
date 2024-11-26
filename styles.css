@@ -27,6 +27,7 @@ header {
 /* Projects Section */
 .projects {
     display: flex;
+    padding: 20px;
     justify-content: center;
     flex-wrap: wrap; /* Responsif untuk layar kecil */
     margin: 2rem 0;
