@@ -165,3 +165,40 @@ p {
 .social-links a:hover {
     text-decoration: underline;
 }
+
+/*Table of Contents*/
+.table-of-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 20px auto; /* Mengatur margin otomatis agar elemen berada di tengah */
+  padding: 20px;
+  max-width: 600px; /* Opsional: Membatasi lebar */
+  background-color: #f9f9f9; /* Opsional: Memberikan latar belakang */
+  border: 1px solid #ddd; /* Opsional: Menambahkan border */
+  border-radius: 10px; /* Opsional: Membuat sudut melengkung */
+}
+
+.table-of-contents ul {
+  list-style-type: none; /* Menghilangkan bullet points */
+  padding: 0;
+}
+
+.table-of-contents li {
+  margin: 10px 0; /* Menambahkan jarak antar item */
+}
+
+.table-of-contents a {
+  text-decoration: none; /* Menghilangkan garis bawah */
+  color: #007BFF; /* Warna link */
+  font-weight: bold;
+}
+
+.table-of-contents a:hover {
+  color: #0056b3; /* Warna link saat hover */
+}
+
+
+
