@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project 2 - Sales Dashboard</title>
+  <title>MaPa Pizza Sales Report</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" type="image/png" href="logo hanif.png">
+  <link rel="icon" type="image/png" href="logo.png">
 </head>
 <body>
   <!-- Back Button -->
@@ -13,41 +13,88 @@
 
   <!-- Header -->
   <header>
-    <h1 class="project-header">Sales Dashboard</h1>
+    <h1 class="project-header">MaPa Pizza Sales Report</h1>
   </header>
 
-  <!-- Main Content -->
+  <!-- Intro Section -->
+  <section class="intro">
+    <h2>Overview</h2>
+    <p><strong>Used:</strong> Tools: Excel, SQL, Tableau</p>
+    <p><strong>Project:</strong> Type: Data Preparation | Exploratory Data Analysis | Data Visualization</p>
+    <p><strong>Relevant Links:</strong> 
+      <a href="https://tableau.com" target="_blank">Tableau</a> | 
+      <a href="https://github.com" target="_blank">GitHub</a>
+    </p>
+  </section>
+
+  <!-- Table of Contents -->
+  <nav class="table-of-contents">
+    <h2>Table of Contents</h2>
+    <ul>
+      <li><a href="#executive-summary">1. Executive Summary</a></li>
+      <li><a href="#data-description">2. Data Description</a></li>
+      <li><a href="#objective">3. Objective</a></li>
+      <li><a href="#key-results">4. Key Results</a></li>
+      <li><a href="#recommendations">5. Recommendations</a></li>
+    </ul>
+  </nav>
+
+  <!-- Content Sections -->
   <main>
-    <!-- Main Image -->
-    <div class="image-section">
-      <img src="Sales dashboard FIX.jpg" alt="Sales Dashboard" class="main-image">
-      <p class="image-caption">
-        A dashboard providing insights on sales performance. 
-        <a href="https://www.datascienceportfol.io/hanifrais/projects/0" target="_blank">Source</a>
-      </p>
-    </div>
+    <!-- Executive Summary -->
+    <section id="executive-summary">
+      <h2>1. Executive Summary</h2>
+      <p>MaPa Pizza’s sales trends reveal critical insights into consumer preferences and operational efficiency. Over 4,862 orders were analyzed to evaluate sales performance, identify peak times, and determine product popularity.</p>
+      <p>Peak hours are **12:00 PM - 1:00 PM** and **4:00 PM - 7:00 PM**, contributing 22K orders annually. Week 48 of December saw the highest weekly orders (491), reflecting holiday season demand.</p>
+      <p>Top performers include the **Classic Deluxe Pizza** for total orders (2.33K) and the **Thai Chicken Pizza** for revenue ($43.43K). The **Brie Carre Pizza** consistently underperformed across all metrics.</p>
+    </section>
 
-    <!-- Details -->
-    <section class="details">
-      <h2>About the Project</h2>
-      <p>This project focuses on visualizing sales data for better decision-making. Key features include:</p>
+    <!-- Data Description -->
+    <section id="data-description">
+      <h2>2. Data Description</h2>
+      <p>The dataset consists of 4,862 rows and 12 columns, detailing transactions and product information:</p>
       <ul>
-        <li>Data from over 300,000 sales transactions.</li>
-        <li>Interactive visualizations created using Tableau.</li>
-        <li>Insights on revenue, customer segments, and sales trends.</li>
+        <li><strong>Product Details:</strong> Columns like `pizza_name`, `pizza_category`, and `pizza_size` provided clarity on preferences.</li>
+        <li><strong>Transaction Metrics:</strong> Columns like `total_price`, `quantity`, and `unit_price` measured financial performance.</li>
+        <li><strong>Order Time Data:</strong> Columns like `order_date` and `order_time` helped identify time trends.</li>
       </ul>
+      <p>SQL was used to calculate metrics such as total revenue, average order value, and pizza popularity by category. For detailed SQL scripts, visit the <a href="https://github.com" target="_blank">GitHub repository</a>.</p>
+    </section>
 
-      <h2>Key Challenges</h2>
-      <p>Addressed the following challenges during the project:</p>
+    <!-- Objective -->
+    <section id="objective">
+      <h2>3. Objective</h2>
+      <p>The analysis aimed to assess sales performance, identify trends in consumer behavior, and evaluate product popularity. The ultimate goal was to uncover actionable insights to drive revenue growth.</p>
+    </section>
+
+    <!-- Key Results -->
+    <section id="key-results">
+      <h2>4. Key Results</h2>
+      <h3>Busiest Hours and Weeks</h3>
+      <p>Lunch (12:00 PM - 1:00 PM) and dinner hours (4:00 PM - 7:00 PM) were peak times, with over 22K combined orders annually. Week 48 of December saw a spike in orders, likely due to holiday season demand.</p>
+      <h3>Sales Performance</h3>
+      <p>**Category:** The Classic category dominated sales, contributing 26.91% of orders (~220K pizzas).</p>
+      <p>**Size:** Large pizzas accounted for 45.9% of total revenue, indicating customer preference for larger portions.</p>
+      <h3>Top Performers</h3>
       <ul>
-        <li>Data cleaning and preparation to handle missing values.</li>
-        <li>Optimizing dashboard performance for large datasets.</li>
+        <li><strong>Revenue:</strong> Thai Chicken Pizza ($43.43K)</li>
+        <li><strong>Orders:</strong> Classic Deluxe Pizza (2.33K)</li>
       </ul>
+      <h3>Low Performers</h3>
+      <ul>
+        <li><strong>Revenue:</strong> Brie Carre Pizza ($11.59K)</li>
+        <li><strong>Orders:</strong> Brie Carre Pizza (480)</li>
+      </ul>
+    </section>
 
-      <h2>Results</h2>
-      <p>
-        The dashboard improved sales reporting efficiency by 50% and helped the management identify key growth areas.
-      </p>
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>5. Recommendations</h2>
+      <ul>
+        <li><strong>Revitalize Low Performers:</strong> Adjust pricing, marketing, or recipes for Brie Carre Pizza to boost appeal. Begin implementation in Q1 next year, led by the Product Development and Marketing teams.</li>
+        <li><strong>Capitalize on High Performers:</strong> Create combo offers featuring the Thai Chicken Pizza and upsell Classic Deluxe Pizza during peak times. Launch immediately for the holiday season.</li>
+        <li><strong>Optimize Operations:</strong> Align inventory and staffing with peak demand times to improve efficiency. Test a loyalty program targeting lunchtime and dinner customers within the next 2 months.</li>
+      </ul>
     </section>
   </main>
 
