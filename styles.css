@@ -177,7 +177,7 @@ p {
 }
 /* Section Styling */
 section {
-    text-align: center;
+    text-align:justify;
     padding: 20px;
     margin: 10px auto;
     max-width: 800px;
