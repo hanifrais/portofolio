@@ -201,9 +201,7 @@ section {
     margin: 0;
 }
 
-.table-of-contents li {
-    margin: 8px 0; /* Menambahkan jarak antar item */
-}
+
 
 .table-of-contents a {
     text-decoration: none; /* Menghilangkan garis bawah */
