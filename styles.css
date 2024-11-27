@@ -113,6 +113,19 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* List Styling */
+section ul {
+    padding-left: 20px; /* Memberi jarak dari tepi */
+    margin: 10px 0; /* Mengatur jarak antar list */
+    list-style-position: outside; /* Bullet tetap di luar */
+}
+
+section li {
+    margin-bottom: 10px; /* Jarak antar bullet point */
+    line-height: 1.6; /* Jarak antar baris dalam satu bullet point */
+    text-align: left; /* Teks rata kiri di dalam list */
+}
+
 /* Image Styling for Sections */
 .section-image {
     display: block;
