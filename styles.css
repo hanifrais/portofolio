@@ -175,35 +175,43 @@ p {
 .social-links a:hover {
     text-decoration: underline;
 }
+/* Section Styling */
+section {
+    text-align: center;
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-/*Table of Contents*/
+/* Table of Contents */
 .table-of-contents {
-  
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin: 20px auto; /* Mengatur margin otomatis agar elemen berada di tengah */
-  padding: 20px;
-
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #f9f9f9; /* Warna latar belakang ringan */
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Bayangan ringan */
 }
 
 .table-of-contents ul {
-  list-style-type: none; /* Menghilangkan bullet points */
-  padding: 0;
+    list-style-type: none; /* Menghilangkan bullet points */
+    padding: 0;
+    margin: 0;
 }
 
 .table-of-contents li {
-  margin: 10px 0; /* Menambahkan jarak antar item */
+    margin: 8px 0; /* Menambahkan jarak antar item */
 }
 
 .table-of-contents a {
-  text-decoration: none; /* Menghilangkan garis bawah */
-  color: #007BFF; /* Warna link */
-  font-weight: bold;
+    text-decoration: none; /* Menghilangkan garis bawah */
+    color: #007BFF; /* Warna link */
+    font-weight: bold;
+    transition: color 0.3s; /* Animasi transisi */
 }
 
 .table-of-contents a:hover {
-  color: #0056b3; /* Warna link saat hover */
+    color: #0056b3; /* Warna link saat hover */
 }
-
-
