@@ -23,6 +23,14 @@ header {
     margin: 0;
     color: #4682B4;
 }
+/* Membuat .about-me menjadi kontainer fleksibel untuk memusatkan konten */
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Menyelaraskan konten secara horizontal ke tengah */
+    text-align: center;   /* Mengatur teks di dalamnya agar rata tengah */
+    padding: 20px;        /* Memberikan padding agar tidak terlalu dekat dengan tepi */
+}
 .profile-photo-container {
     display: flex;
     justify-content: center;  /* Menyelaraskan gambar secara horizontal ke tengah */
