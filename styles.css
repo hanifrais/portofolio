@@ -23,15 +23,20 @@ header {
     margin: 0;
     color: #4682B4;
 }
-.profile-photo {
-    text-align: center;
-    width: 150px;  /* Menentukan lebar gambar */
-    height: 150px; /* Menentukan tinggi gambar (sama dengan lebar agar bulat) */
-    border-radius: 50%;  /* Membuat gambar berbentuk bulat */
-    object-fit: cover;  /* Memastikan gambar tetap proporsional meskipun dipotong */
-    margin-top: 20px;  /* Memberikan jarak antara paragraf dan gambar */
+.profile-photo-container {
+    display: flex;
+    justify-content: center;  /* Menyelaraskan gambar secara horizontal ke tengah */
+    align-items: center;      /* Menyelaraskan gambar secara vertikal ke tengah */
+    margin-top: 20px;         /* Memberikan jarak antara teks dan foto */
 }
 
+/* Gaya gambar agar berbentuk bulat */
+.profile-photo {
+    width: 150px;    /* Lebar gambar */
+    height: 150px;   /* Tinggi gambar */
+    border-radius: 50%; /* Membuat gambar berbentuk bulat */
+    object-fit: cover;  /* Memastikan gambar tetap proporsional meskipun dipotong */
+}
 
 /* Projects Section */
 .projects {
