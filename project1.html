@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project 1 - Sales Dashboard</title>
+  <title>Sales Performance Analysis</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" href="logo hanif.png">
 </head>
@@ -13,44 +13,112 @@
 
   <!-- Header -->
   <header>
-    <h1 class="project-header">Sales Dashboard</h1>
+    <h1 class="project-header">Sales Performance Analysis</h1>
   </header>
 
-  <!-- Main Content -->
-  <main>
-    <!-- Main Image -->
-    <div class="image-section">
-      <img src="Sales dashboard FIX.jpg" alt="Sales Dashboard" class="main-image">
-      <p class="image-caption">
-        A dashboard providing insights on sales performance. 
-        <a href="https://www.datascienceportfol.io/hanifrais/projects/0" target="_blank">Source</a>
-      </p>
-    </div>
 
-    <!-- Details -->
-    <section class="details">
-      <h2>About the Project</h2>
-      <p>This project focuses on visualizing sales data for better decision-making. Key features include:</p>
-      <ul>
-        <li>Data from over 300,000 sales transactions.</li>
-        <li>Interactive visualizations created using Tableau.</li>
-        <li>Insights on revenue, customer segments, and sales trends.</li>
-      </ul>
+  <!-- Intro Section -->
+  <section class="intro">
+    <h2>Overview</h2>
+    <p><strong>Used          :</strong> Tools: Excel | SQL | Tableau</p>
+    <p><strong>Project       :</strong> Type : Data Preparation | Exploratory Data Analysis | Data Visualization</p>
+    <p><strong>Relevant Links:</strong> 
+      <a href="https://tableau.com" target="_blank">Tableau</a> | 
+      <a href="https://github.com" target="_blank">GitHub</a>
+    </p>
 
-      <h2>Key Challenges</h2>
-      <p>Addressed the following challenges during the project:</p>
-      <ul>
-        <li>Data cleaning and preparation to handle missing values.</li>
-        <li>Optimizing dashboard performance for large datasets.</li>
-      </ul>
+     </section>
+  
+  <section id="table-of-contents">
+    <h2>Table of Contents</h2>
+    <nav class="table-of-contents">
+        <ul>
+            <li><a href="#executive-summary">1. Executive Summary</a></li>
+            <li><a href="#data-description">2. Data Description</a></li>
+            <li><a href="#initial-questions">3. Initial Questions</a></li>
+            <li><a href="#objectives">3. Objectives</a></li>
+            <li><a href="#key-results">4. insights</a></li>
+            <li><a href="#recommendations">5. Recommendations</a></li>
+        </ul>
+    </nav>
+</section>
 
-      <h2>Results</h2>
-      <p>
-        The dashboard improved sales reporting efficiency by 50% and helped the management identify key growth areas.
-      </p>
-    </section>
-  </main>
+  
+  <!-- Data Description Section -->
+  <section id="data-description">
+    <h2>Data Description</h2>
+    <p>The dataset consists of 13,318 rows and multiple columns spread across four tables, offering a comprehensive view of sales performance and customer insights:</p>
+    <ul>
+      <li><strong>Products Table:</strong> Includes details about Product ID, Category, Sub-Category, and Product Name to analyze product sales and profitability.</li>
+      <li><strong>Order Table:</strong> Tracks transactional data such as Order ID, Order Date, Ship Mode, Customer Segment, Sales, Quantity, Discount, and Profit for sales analysis.</li>
+      <li><strong>Location Table:</strong> Provides geographical details like Postal Code, City, State, Region, and Country/Region for regional performance analysis.</li>
+      <li><strong>Customer Table:</strong> Contains Customer ID and Customer Name for customer segmentation and behavior analysis.</li>
+    </ul>
+  </section>
 
+  <!-- Initial Questions Section -->
+  <section id="initial-questions">
+    <h2>Initial Questions</h2>
+    <ul>
+      <li><strong>a.</strong> What are the year-over-year trends for sales, profit, and quantity metrics?</li>
+      <li><strong>b.</strong> Which product subcategories drive the most and least sales and profits?</li>
+      <li><strong>c.</strong> What are the weekly trends in sales and profit performance, and how can outliers (high and low-performing weeks) be explained?</li>
+    </ul>
+  </section>
+
+  <!-- Objectives Section -->
+  <section id="objectives">
+    <h2>Objectives</h2>
+    <ul>
+      <li><strong>a. Understand Year-over-Year Performance:</strong> Identify growth patterns in sales, profit, and quantity compared to the previous year.</li>
+      <li><strong>b. Analyze Subcategory Contributions:</strong> Evaluate sales and profit performance by product subcategories to identify top and bottom performers.</li>
+      <li><strong>c. Examine Weekly Trends:</strong> Analyze weekly sales and profit trends to identify high and low-performing weeks and their contributing factors.</li>
+    </ul>
+  </section>
+
+  <!-- Insights Section -->
+  <section id="insights">
+    <h2>Insights</h2>
+    <h3>a. Year-over-Year Insights</h3>
+    <ul>
+      <li><strong>a.1:</strong> Sales increased by 20.59%, with a significant 43.72% profit growth, indicating better cost management or higher margins.</li>
+      <li><strong>a.2:</strong> Quantity growth (+26.83%) is consistent with sales growth, suggesting stable demand for products.</li>
+    </ul>
+    <h3>b. Subcategory Insights</h3>
+    <ul>
+      <li><strong>b.1:</strong> High performers like Phones, Binders, and Storage likely contribute disproportionately to revenue and profit.</li>
+      <li><strong>b.2:</strong> Low performers (Fasteners, Labels, Supplies) might have low demand or offer minimal profit margins, requiring reevaluation of their portfolio or pricing.</li>
+    </ul>
+    <h3>c. Weekly Trends Insights</h3>
+    <ul>
+      <li><strong>c.1:</strong> Early weeks and Weeks 21 and 30 show below-average sales, likely due to low seasonal demand or operational inefficiencies.</li>
+      <li><strong>c.2:</strong> Late-year weeks, especially Week 49, outperform average sales, likely driven by holiday season demand or targeted campaigns.</li>
+    </ul>
+  </section>
+
+  <!-- Recommendations Section -->
+  <section id="recommendations">
+    <h2>Recommendations</h2>
+    <ul>
+      <li><strong>From Insight a:</strong> Focus on sustaining profit margins while driving sales volume further through targeted promotions and bundling strategies in growing segments.</li>
+      <li><strong>From Insight b:</strong> 
+        <ul>
+          <li>Increase marketing and promotion for top-performing subcategories like Phones, Binders, and Storage to maintain momentum.</li>
+          <li>Assess the viability of low-performing subcategories (Fasteners, Labels, Supplies) and consider repositioning, discontinuing, or redesigning these products.</li>
+        </ul>
+      </li>
+      <li><strong>From Insight c:</strong>
+        <ul>
+          <li>Implement demand-forecasting models to anticipate low-performing weeks and introduce targeted discounts or campaigns during these periods.</li>
+          <li>Capitalize on high-demand periods, such as late-year weeks, by ensuring inventory readiness, staffing optimization, and promotional offers tailored for the holiday season.</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+</body>
+
+
+  
   <!-- Let's Connect Section -->
   <footer class="connect">
     <h2>Let's Connect</h2>
