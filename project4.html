@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Employee Attrition Analysis Report</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="icon" type="image/png" href="logo hanif1.png">
 </head>
 <body>
   <!-- Back Button -->
@@ -19,32 +19,52 @@
   <!-- Intro Section -->
   <section class="intro">
     <h2>Overview</h2>
-    <p><strong>Used          :</strong> Tools: Excel | SQL | Tableau</p>
-    <p><strong>Project       :</strong> Type : Data Preparation | Exploratory Data Analysis | Data Visualization</p>
+    <p><strong>Used:</strong> Tools: Python | SQL | Tableau</p>
+    <p><strong>Project:</strong> Type: Data Analysis | Attrition Insights | Visualization</p>
     <p><strong>Relevant Links:</strong> 
       <a href="https://tableau.com" target="_blank">Tableau</a> | 
       <a href="https://github.com" target="_blank">GitHub</a>
     </p>
   </section>
-  
+
+  <!-- Table of Contents -->
   <section id="table-of-contents">
     <h2>Table of Contents</h2>
     <nav class="table-of-contents">
-        <ul>
-            <li><a href="#initial-questions">1. Initial Questions</a></li>
-            <li><a href="#objectives">2. Objectives</a></li>
-            <li><a href="#metrics">3. Metrics</a></li>
-            <li><a href="#insights">4. Insights</a></li>
-            <li><a href="#recommendations">5. Recommendations</a></li>
-        </ul>
+      <ul>
+        <li><a href="#executive-summary">1. Executive Summary</a></li>
+        <li><a href="#data-description">2. Data Description</a></li>
+        <li><a href="#initial-questions">3. Initial Questions</a></li>
+        <li><a href="#objectives">4. Objectives</a></li>
+        <li><a href="#insights">5. Insights</a></li>
+        <li><a href="#recommendations">6. Recommendations</a></li>
+      </ul>
     </nav>
   </section>
 
   <!-- Content Sections -->
   <main>
+    <!-- Executive Summary -->
+    <section id="executive-summary">
+      <h2>1. Executive Summary</h2>
+      <p>This analysis highlights the key factors driving employee attrition and provides actionable insights to improve retention. Attrition rates, satisfaction metrics, and demographic trends are evaluated to identify at-risk groups and implement targeted strategies for improvement.</p>
+    </section>
+
+    <!-- Data Description -->
+    <section id="data-description">
+      <h2>2. Data Description</h2>
+      <p>The dataset includes 20 columns, providing comprehensive insights into demographics, work attributes, and satisfaction metrics:</p>
+      <ul>
+        <li><strong>Employee Data:</strong> Age, Gender, Education Field, Job Role.</li>
+        <li><strong>Job Attributes:</strong> Department, Over Time, Job Level, Training Times Last Year.</li>
+        <li><strong>Satisfaction Metrics:</strong> Job Satisfaction, Environment Satisfaction.</li>
+        <li><strong>Attrition Indicators:</strong> CF_attrition label, CF_current Employee.</li>
+      </ul>
+    </section>
+
     <!-- Initial Questions -->
     <section id="initial-questions">
-      <h2>1. Initial Questions</h2>
+      <h2>3. Initial Questions</h2>
       <ul>
         <li>What is the overall attrition rate and how does it impact the organization?</li>
         <li>How does attrition vary by gender, department, and age group?</li>
@@ -54,76 +74,46 @@
 
     <!-- Objectives -->
     <section id="objectives">
-      <h2>2. Objectives</h2>
-      <h3>a. Attrition Overview</h3>
-      <p>Understand the overall attrition rate, number of active employees, and demographic trends.</p>
-      <h3>b. Gender, Department, and Age Analysis</h3>
-      <p>Evaluate attrition patterns across gender, department, and age groups to identify at-risk employee segments.</p>
-      <h3>c. Education and Job Role Impact</h3>
-      <p>Analyze how education fields and job roles influence attrition and satisfaction levels.</p>
-    </section>
-
-    <!-- Metrics -->
-    <section id="metrics">
-      <h2>3. Metrics</h2>
-      <h3>a. Attrition Metrics</h3>
+      <h2>4. Objectives</h2>
       <ul>
-        <li>Total employee count: 1,470</li>
-        <li>Attrition count: 237</li>
-        <li>Active employee count: 1,233</li>
-        <li>Attrition rate: 16.12%</li>
-      </ul>
-      <h3>b. Gender, Department, and Age Metrics</h3>
-      <ul>
-        <li>Gender: Male attrition = 150, Female attrition = 87</li>
-        <li>Department: R&D = 56.12% attrition (133 employees); HR = lowest attrition</li>
-        <li>Age group: Highest attrition = 18.14% (112 employees)</li>
-      </ul>
-      <h3>c. Education and Job Satisfaction Metrics</h3>
-      <ul>
-        <li>Education Field: Life Sciences = highest attrition (89 employees)</li>
-        <li>Job Satisfaction: Research (80) and Sales Representative (83) = lowest satisfaction scores</li>
+        <li><strong>Attrition Overview:</strong> Understand the overall attrition rate, number of active employees, and demographic trends.</li>
+        <li><strong>Gender, Department, and Age Analysis:</strong> Evaluate attrition patterns across gender, department, and age groups to identify at-risk employee segments.</li>
+        <li><strong>Education and Job Role Impact:</strong> Analyze how education fields and job roles influence attrition and satisfaction levels.</li>
       </ul>
     </section>
 
     <!-- Insights -->
     <section id="insights">
-      <h2>4. Insights</h2>
-      <h3>a. Attrition Insights</h3>
-      <p>The overall attrition rate stands at 16.12%, with 237 employees leaving the organization. This rate is relatively high and could indicate potential issues within the employee retention strategy.</p>
-      <h3>b. Gender, Department, and Age Insights</h3>
-      <p><strong>Gender:</strong> Male employees exhibit higher attrition (150) compared to females (87).</p>
-      <p><strong>Department:</strong> Research & Development (R&D) has the highest attrition rate at 56.12%, indicating that employees in this department are more likely to leave. On the other hand, HR has the lowest attrition rate, suggesting stronger retention strategies or a more satisfied workforce in that department.</p>
-      <p><strong>Age group:</strong> The highest attrition rate occurs in the 18.14% age group, comprising 112 employees. This age group may face different retention challenges, such as career development opportunities or work-life balance issues.</p>
-      <h3>c. Education and Job Satisfaction Insights</h3>
-      <p><strong>Education Field:</strong> Employees from the Life Sciences field exhibit the highest attrition rate (89 employees). This suggests that employees in this area may be facing unique challenges or dissatisfaction with their roles.</p>
-      <p><strong>Job Satisfaction:</strong> Employees in Research (80) and Sales Representative (83) roles report the lowest job satisfaction scores. This correlates with higher attrition rates in these roles, indicating that dissatisfaction is a significant driver of employee turnover in these departments.</p>
+      <h2>5. Insights</h2>
+      <ul>
+        <li><strong>Attrition Insights:</strong> The overall attrition rate stands at 16.12%, with 237 employees leaving the organization.</li>
+        <li><strong>Gender, Department, and Age Insights:</strong> Male employees and the R&D department show the highest attrition rates.</li>
+        <li><strong>Education and Job Satisfaction Insights:</strong> Employees in Life Sciences fields and roles like Research and Sales Representatives report the lowest satisfaction scores.</li>
+      </ul>
     </section>
 
     <!-- Recommendations -->
     <section id="recommendations">
-      <h2>5. Recommendations</h2>
+      <h2>6. Recommendations</h2>
       <ul>
-        <li><strong>Develop and implement a company-wide retention strategy</strong> to reduce the attrition rate below 12% over the next 12 months. Focus on improving work-life balance, career growth, and employee engagement.</li>
-        <li><strong>Implement mentorship and career development programs</strong> for male employees and staff in the R&D department to reduce their attrition rate by at least 20% within six months.</li>
-        <li><strong>Create tailored career paths and offer developmental opportunities</strong> to employees in the 18.14% age group to improve engagement and reduce attrition by 15% within the next year.</li>
-        <li><strong>Conduct in-depth focus groups with employees from the Life Sciences field</strong> to identify specific pain points contributing to their high attrition. Aim for a 15% reduction in attrition within this segment over the next year.</li>
-        <li><strong>Launch job satisfaction improvement initiatives</strong> in the Research and Sales Representative roles, including training programs, performance incentives, and regular surveys, to reduce attrition by at least 10% within the next six months.</li>
+        <li>Develop a company-wide retention strategy focusing on work-life balance and career growth to reduce the attrition rate below 12% within 12 months.</li>
+        <li>Implement mentorship and development programs for at-risk groups, targeting male employees and the R&D department.</li>
+        <li>Conduct focus groups and launch job satisfaction initiatives for low-performing roles to reduce attrition by at least 10% in six months.</li>
       </ul>
     </section>
   </main>
 
-  <!-- Let's Connect Section -->
+  <!-- Footer -->
   <footer class="connect">
     <h2>Let's Connect</h2>
     <div class="social-links">
-      <a href="https://www.linkedin.com/in/muhammad-hanif-rais/" target="_blank">
+      <a href="https://www.linkedin.com/in/your-profile/" target="_blank">
         <img src="linkedin.png" alt="LinkedIn">
       </a>
-      <a href="mailto:hanifrais07@gmail.com" target="_blank">
+      <a href="mailto:your-email@gmail.com" target="_blank">
         <img src="gmail.png" alt="Gmail">
       </a>
-      <a href="https://wa.me/+62" target="_blank">
+      <a href="https://wa.me/your-number" target="_blank">
         <img src="whatsapp.png" alt="WhatsApp">
       </a>
     </div>
