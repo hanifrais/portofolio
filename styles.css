@@ -23,6 +23,14 @@ header {
     margin: 0;
     color: #4682B4;
 }
+.profile-photo {
+    width: 150px;  /* Menentukan lebar gambar */
+    height: 150px; /* Menentukan tinggi gambar (sama dengan lebar agar bulat) */
+    border-radius: 50%;  /* Membuat gambar berbentuk bulat */
+    object-fit: cover;  /* Memastikan gambar tetap proporsional meskipun dipotong */
+    margin-top: 20px;  /* Memberikan jarak antara paragraf dan gambar */
+}
+
 
 /* Projects Section */
 .projects {
