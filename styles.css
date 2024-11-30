@@ -24,6 +24,7 @@ header {
     color: #4682B4;
 }
 .profile-photo {
+    text-align: center;
     width: 150px;  /* Menentukan lebar gambar */
     height: 150px; /* Menentukan tinggi gambar (sama dengan lebar agar bulat) */
     border-radius: 50%;  /* Membuat gambar berbentuk bulat */
