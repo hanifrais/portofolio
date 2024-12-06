@@ -190,14 +190,6 @@ p {
     padding: 10px;
     background-color: #f5f5f5;
 }
-/*baru*/
-/* Row Styling */
-.row {
-    display: flex; /* Atur proyek dalam satu baris */
-    justify-content: space-between; /* Rata kanan-kiri */
-    margin-bottom: 30px; /* Jarak antar baris */
-}
-/*/
 .project-box img {
     max-width: 100%;
     border-radius: 10px;
