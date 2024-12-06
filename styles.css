@@ -47,30 +47,6 @@ header {
     object-fit: cover;  /* Memastikan gambar tetap proporsional meskipun dipotong */
 }
 
-/* Projects Section */
-.projects {
-    display: flex;
-    padding: 20px;
-    justify-content: center;
-    flex-wrap: wrap; /* Responsif untuk layar kecil */
-    margin: 2rem 0;
-}
-
-.project-card {
-    background-color: #F0F0F0;
-    padding: 1.5rem;
-    border: 1px solid #DDD;
-    border-radius: 8px;
-    text-align: center;
-    max-width: 300px;
-    margin: 10px; /* Memberi jarak antar kartu */
-}
-
-.project-link {
-    text-decoration: none;
-    color: inherit;
-}
-
 /* Back Button */
 .back-button {
     position: absolute;
@@ -137,6 +113,32 @@ section {
 }
 
 }
+
+/* Projects Section */
+.projects {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap; /* Responsif untuk layar kecil */
+    margin: 2rem 0;
+}
+
+.project-card {
+    background-color: #F0F0F0;
+    padding: 1.5rem;
+    border: 1px solid #DDD;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 300px;
+    margin: 10px; /* Memberi jarak antar kartu */
+}
+
+.project-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+
 /* Project Grid */
 .project-grid {
     display: grid;
