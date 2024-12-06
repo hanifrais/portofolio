@@ -173,7 +173,11 @@ p {
     margin: 0 auto;
     line-height: 1.6;
 }
-
+p1 {
+    text-align: center; /* Rata kiri-kanan */
+    margin: 0 auto;
+    line-height: 1.6;
+}
 
 /* Project Grid */
 .project-grid {
