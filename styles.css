@@ -134,6 +134,28 @@ section {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+/* Styling for Subsections */
+.tableau-section, .python-section, sql-section {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.tableau-section h3 {
+    color: #4CAF50; /* Hijau untuk Tableau */
+    text-align: center;
+}
+
+.python-section h3 {
+    color: #2196F3; /* Biru untuk Python */
+    text-align: center;
+}
+.sql-section h3 {
+    color: #FFA07A; /* Oren muda untuk sql */
+    text-align: center;
+
 
 /* List Styling */
 section ul {
