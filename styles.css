@@ -135,26 +135,31 @@ section {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-/* Styling for Subsections */
-.tableau-section, .python-section, sql-section {
+
+}
+/* Project Grid */
+.project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsif */
     gap: 20px;
     margin: 20px 0;
 }
 
-.tableau-section h3 {
-    color: #4CAF50; /* Hijau untuk Tableau */
-    text-align: center;
+.project-box {
+    text-align: center; /* Center text */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
 }
 
-.python-section h3 {
-    color: #2196F3; /* Biru untuk Python */
-    text-align: center;
+.project-box img {
+    max-width: 100%;
+    border-radius: 10px;
 }
-.sql-section h3 {
-    color: #FFA07A; /* Oren muda untuk sql */
-    text-align: center;
+
+
+
 
 
 /* List Styling */
@@ -191,26 +196,6 @@ p {
     line-height: 1.6;
 }
 
-/* Project Grid */
-.project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsif */
-    gap: 20px;
-    margin: 20px 0;
-}
-
-.project-box {
-    text-align: center; /* Center text */
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: #f5f5f5;
-}
-
-.project-box img {
-    max-width: 100%;
-    border-radius: 10px;
-}
 
 /* Social Links */
 .social-links {
@@ -273,65 +258,3 @@ section {
 }
 
 // edit baru 
-
-/* Section Styling */
-section.portfolio {
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 1200px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Sub-section styling */
-.tableau-section, .python-section, .sql-section {
-    margin: 20px 0;
-}
-
-h3 {
-    text-align: center;
-    color: #444;
-    margin-bottom: 15px;
-}
-
-/* Grid layout */
-.project-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Tiga kolom */
-    gap: 20px; /* Jarak antar elemen */
-}
-
-/* Project box styling */
-.project-box {
-    text-align: center;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 15px;
-    background-color: #f5f5f5;
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.project-box img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-.project-box:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-}
-
-/* Responsiveness */
-@media (max-width: 768px) {
-    .project-grid {
-        grid-template-columns: repeat(2, 1fr); /* Dua kolom untuk layar kecil */
-    }
-}
-
-@media (max-width: 480px) {
-    .project-grid {
-        grid-template-columns: 1fr; /* Satu kolom untuk layar sangat kecil */
-    }
-}
